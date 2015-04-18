@@ -1,0 +1,18 @@
+application:
+  debug: false
+
+server:
+  port: 9201
+
+logging:
+  file: log/restclient.log
+  level:
+    com.netflix.discovery: 'OFF'
+    org.springframework.cloud: 'DEBUG'
+    restclientconsumer.Application: 'DEBUG'
+
+# It is necessary for Feign service discovering
+apinetflix:
+  ribbon:
+    # the eureka vipAddress of the target service
+    DeploymentContextBasedVipAddresses: apinetflix

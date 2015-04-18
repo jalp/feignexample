@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: restclient
+
+eureka:
+  instance:
+    #Virtual host name by which the clients identifies this service
+    virtualHostName: ${spring.application.name}
+    leaseRenewalIntervalInSeconds: 10
+  client:
+    registryFetchIntervalSeconds: 30
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
