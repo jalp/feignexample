@@ -1,4 +1,4 @@
-package es.javi.restclientconsumer.web;
+package es.javi.restclientconsumer.service;
 
 import es.javi.restclientconsumer.domain.Container;
 import org.springframework.cloud.netflix.feign.FeignClient;

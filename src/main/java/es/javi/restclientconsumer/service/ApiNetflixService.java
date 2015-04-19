@@ -2,7 +2,6 @@ package es.javi.restclientconsumer.service;
 
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import es.javi.restclientconsumer.domain.Container;
-import es.javi.restclientconsumer.web.IApiNetflix;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
