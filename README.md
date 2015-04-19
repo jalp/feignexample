@@ -1,5 +1,5 @@
 # Main
-Spring cloud service making POST request using Feign/Eureka/Ribbon
+Spring cloud service making POST request using Feign/Eureka/Ribbon/Hystrix
 
 ## Requeriments
 It is needed and [Eureka server](https://github.com/jalp/eureka) and [apinetflix](https://github.com/jalp/api-netflix) service running locally.
