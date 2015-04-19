@@ -3,7 +3,7 @@ package es.javi.restclientconsumer.domain;
 public class Container {
     private String subject;
     private String body;
-    private Boolean companyAd;
+    private Boolean companyContainer;
     private int listId;
 
     public String getSubject() {
@@ -23,11 +23,11 @@ public class Container {
     }
 
     public Boolean isCompanyAd() {
-        return companyAd;
+        return companyContainer;
     }
 
-    public void setCompanyAd(Boolean companyAd) {
-        this.companyAd = companyAd;
+    public void setCompanyContainer(Boolean companyContainer) {
+        this.companyContainer = companyContainer;
     }
 
     public int getListId() {
@@ -36,5 +36,15 @@ public class Container {
 
     public void setListId(int listId) {
         this.listId = listId;
+    }
+
+    @Override
+    public String toString() {
+        return "Container{" +
+                "subject='" + subject + '\'' +
+                ", body='" + body + '\'' +
+                ", companyContainer=" + companyContainer +
+                ", listId=" + listId +
+                '}';
     }
 }

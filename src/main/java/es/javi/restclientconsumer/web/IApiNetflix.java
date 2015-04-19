@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import java.util.LinkedHashMap;
 
 @FeignClient("apinetflix")
-public interface ApiNetflix {
+public interface IApiNetflix {
     @RequestMapping(value = "/account/{accountId}/container",
             method = RequestMethod.POST,
             consumes = MediaType.APPLICATION_JSON_VALUE)
